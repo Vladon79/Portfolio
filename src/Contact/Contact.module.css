@@ -1,0 +1,42 @@
+.contact{
+    height: 100vh;
+    background-color: #af5019;  
+}
+
+.blockContact{
+    height: 80%;
+    width: 100%;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .contactContsiner{
+    flex-direction: column;
+    justify-content: flex-start;
+    
+
+} */
+
+.input{
+    width: 90%;
+    height: 20px;
+    margin: 10px;
+}
+
+.textarea{
+    width: 90%;
+    height: 80px;
+    margin: 10px;
+}
+.title{
+    background-color: palevioletred;
+}
+.inputs{
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    border: 1px solid green;
+    display: flex;
+}

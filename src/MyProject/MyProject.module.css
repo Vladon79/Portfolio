@@ -1,0 +1,22 @@
+.myProject{
+    min-height: 100vh;
+    background-color: #2a883a;
+}
+
+.myProjectContsiner{
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.title{
+    background-color: thistle;
+}
+
+.projects{
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
