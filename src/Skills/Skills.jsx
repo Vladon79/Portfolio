@@ -7,14 +7,14 @@ const Skills = () => {
   return (
     <div className={style.skillsBlock}>
       <div className={`${styleContainer.container} ${style.skillsContsiner}`}>
-        <h2 className={style.title}>Skills</h2>
+        <h2 className={style.title}>Мои скиллы</h2>
         <div className={style.skills}>
           <Skill title={'Js'} 
           discription={'JavaScript — мультипарадигменный язык программирования. '}/>
           <Skill title={'Css'} 
-          discription={'Css — мультипарадигменный язык программирования. '}/>
+          discription={'Css — формальный язык описания внешнего вида документа, написанного с использованием языка разметки. '}/>
           <Skill title={'React'}
-          discription={'React — мультипарадигменный язык программирования.'}/>
+          discription={'React — JavaScript-библиотека с открытым исходным кодом для разработки пользовательских интерфейсов. '}/>
          
 
         </div>

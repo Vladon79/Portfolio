@@ -6,11 +6,9 @@ const RemoteWork = () => {
   return (
     <div className={style.contact}>
       <div className={`${styleContainer.container} ${style.contactContsiner}`}>
-      {/* <div className={style.blockContact}> */}
       <h2 className={style.title}>Рассматриваю вариант удаленной работы</h2>
         <button className={style.button}>Нанять меня</button>
         </div>
-      {/* </div> */}
     </div>
   );
 }

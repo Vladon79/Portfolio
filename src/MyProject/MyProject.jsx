@@ -7,7 +7,7 @@ const MyProject = () => {
   return (
     <div className={style.myProject}>
       <div className={`${styleContainer.container} ${style.myProjectContsiner}`}>
-        <h2 className={style.title}>My project</h2>
+        <h2 className={style.title}>Мои проекты</h2>
         <div className={style.projects}>
           <Project title={'Название проекта'} discription={'Краткое описание'} />
           <Project title={'Название проекта'} discription={'Краткое описание'} />
