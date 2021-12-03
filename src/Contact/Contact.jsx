@@ -7,7 +7,7 @@ const Contact = (props) => {
     <div className={style.contact}>
       <div className={`${styleContainer.container} ${style.contactContsiner}`}>
       <div className={style.blockContact}>
-      <h2 className={style.title}>Contact</h2>
+      <h2 className={style.title}>Контакты</h2>
       <div className={style.inputs}>
         <input className={style.input}/>
         <input className={style.input}/>
