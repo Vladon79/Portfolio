@@ -8,13 +8,12 @@ const Contact = (props) => {
       <div className={`${styleContainer.container} ${style.contactContsiner}`}>
       <div className={style.blockContact}>
       <h2 className={style.title}>Контакты</h2>
-      <div className={style.inputs}>
+      <form className={style.inputs}>
         <input className={style.input}/>
         <input className={style.input}/>
         <textarea className={style.textarea}/>
-        <button>Отправить</button>
-
-        </div>
+        <button type='submit'>Отправить</button>
+        </form>
         </div>
       </div>
     </div>
