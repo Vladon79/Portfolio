@@ -1,8 +1,8 @@
 @import './variables.scss';
 
-@mixin text ( $fontFamily, $fontSize, $lineHeight){
-    font-family: $fontFamily;
+@mixin text ( $color, $fontSize, $fontWeight){
+    font-family: $titleFontFamily;
     font-size: $fontSize;
-    line-height: $lineHeight;
-    color: $textColor;
+    font-weight: $fontWeight;
+    color: $color;
 }
