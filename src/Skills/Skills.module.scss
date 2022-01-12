@@ -1,21 +1,18 @@
 @import '../Common/Stiles/sass/variables.scss';
 
-.myProject{
+.skillsBlock{
     min-height: 100vh;
     background-color: $bgColor;
-    .myProjectContsiner{
+    .skillsContsiner{
         flex-direction: column;
         justify-content: flex-start;
-        .projects{
-            flex-wrap: wrap;
+        .skills{
+            flex-wrap: wrap;    
             width: 100%;
-            // border: 1px solid green;
-            display: flex;           
+            display: flex;
             justify-content: space-between;
             margin-top: 60px;
-            @media screen and (max-width: 876px ){
-                justify-content: center;
-            }
+        
         }
     }
 }
