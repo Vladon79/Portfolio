@@ -1,0 +1,28 @@
+@import '../../Stiles/sass/variables.scss';
+@import '../../Stiles/sass/mixins.scss';
+
+
+.title {
+    @include text( $titleFontFamily, 31px, 1);
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        background: $primaryColor;
+        width: 55px;
+        height: 1px ;
+        bottom: -30px;
+        transform: translate(-50%, 50%);
+        left: 50%;
+    }
+    .title h2{
+        margin: 0;
+    }
+}
+
+
+
