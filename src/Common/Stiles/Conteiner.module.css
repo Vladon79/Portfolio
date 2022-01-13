@@ -1,6 +1,6 @@
 .container{
     flex-wrap: wrap;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height:100%;    
     width: 80%;
     margin: 0 auto;
