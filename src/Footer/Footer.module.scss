@@ -1,0 +1,33 @@
+@import '../Common/Stiles/sass/variables.scss';
+@import '../Common/Stiles/sass/mixins.scss';
+
+.footer{
+    background-color: $bgColor; 
+    .footerContainer{
+        display: flex;
+        flex-direction: column;
+        .title{
+            @include text( $textColor, 26px, 500);
+        }
+        .containerBlock{
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            .block{
+                background-color: rgb(0, 38, 255);
+                width: 30px;
+                height: 30px;
+            }
+        }
+        & p{
+            @include text( $textColor2, 14px, 500);
+        }
+    }
+}
+
+
+
+
+
+
+
