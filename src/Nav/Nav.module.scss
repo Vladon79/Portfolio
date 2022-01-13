@@ -6,6 +6,9 @@
     display: flex;
     justify-content: space-between;
     @include text( $textColor, 16px, 500);
+    @media screen and (max-width: 600px ){
+        width: 80%;
+    }
     & a{
         color: $textColor2;
         text-decoration: none;
