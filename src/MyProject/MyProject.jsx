@@ -20,7 +20,7 @@ const MyProject = () => {
   return (
     <div className={style.myProject}>
       <div className={`${styleContainer.container} ${style.myProjectContsiner}`}>
-       <Title title={'Мои проекты'}/>
+       <Title title={'My project'}/>
         <div className={style.projects}>
           <Project style = {network} title={'Project Management Admin Panel'} discription={'Discover Business Strategy A thoughtful discovery process'} />
           <Project style = {todolist} title={'Название проекта'} discription={'Краткое описание'} />

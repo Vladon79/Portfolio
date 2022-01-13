@@ -1,0 +1,12 @@
+@import '../../../Common/Stiles/sass/variables.scss';
+@import '../../../Common/Stiles/sass/mixins.scss';
+
+.button{
+    @include text( $textColor, 18px, 800);
+    border-color: $primaryColor;
+    background: $primaryColor;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}

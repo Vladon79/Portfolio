@@ -1,0 +1,58 @@
+@import '../Common/Stiles/sass/variables.scss';
+@import '../Common/Stiles/sass/mixins.scss';
+
+.contact{
+    
+    background-color: $bgColor2;  
+    .contactContainer{
+       flex-direction: column;
+       
+        .inputs{
+            margin-top: 60px;
+            padding: 60px;
+            align-items: center;
+            flex-direction: column;
+            width: 500px;
+            border: 1px solid green;
+            display: flex;
+            @media screen and (max-width: 700px ){  
+                width: 100%;
+                 padding:  60px 0px 60px;
+             }
+            .input{
+                @include text( $textColor2, 16px, 500);
+                width: 100%;
+                height: 50px;
+                border: none;
+                border-bottom: 1px solid #cbd3d9;
+                background-color: transparent;
+                color: #6e6e6e;                
+                font-family: "DM Sans",sans-serif;
+                padding-left: 0!important;
+                margin-bottom: 50px;
+            }
+            
+            .textarea{
+                width: 100%;
+                border: none;
+                border-bottom: 1px solid #cbd3d9;
+                background-color: transparent;
+                font-size: 16px;
+                color: #6e6e6e;
+                font-weight: 500;
+                font-family: "DM Sans",sans-serif;
+                height: 44px;
+                resize: none;
+                padding-left: 0!important;
+                margin-bottom: 30px;
+            }
+            
+        }
+    }
+}
+
+
+
+
+
+
