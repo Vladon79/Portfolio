@@ -1,35 +1,41 @@
 @import '../Common/Stiles/sass/variables.scss';
 @import '../Common/Stiles/sass/mixins.scss';
 
-.mainBlock{
-    height: 100vh;
-    background-color: $bgColor2;
-    .container{
-        padding: 0 40px;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        .text{  
-            & h3{
-                @include text( $textColor, 26px, 400);
-                margin: 0 0 22px;
-            }          
-            & h1{
-                @include text( $primaryColor, 60px, 700);
-            }
-            & p{
-                @include text( $textColor, 15px, 400);
-                margin: 0 0 25px;
-            }
-        }
-        .ava{
-            width: 300px;
-            height: 300px;
-            background-color: #728732;
-        }
+.mainBlock {
+  height: 100vh;
+  background-color: $bgColor2;
+
+  .container {
+    flex-wrap: wrap;
+    padding: 0 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .text {
+      & h3 {
+        @include text($textColor, 26px, 400);
+        margin: 0 0 22px;
+      }
+
+      & h1 {
+        @include text($primaryColor, 60px, 700);
+      }
+
+      & p {
+        @include text($textColor, 15px, 400);
+        margin: 0 0 25px;
+      }
     }
-    
+
+    .ava {
+      width: 300px;
+      height: 300px;
+      background-color: #728732;
+    }
+  }
+
 }
 
 

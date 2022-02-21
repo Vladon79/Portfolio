@@ -50,7 +50,7 @@
             @include text ( $textColor, 24px, 500);
             margin: 10px 0px 10px 0px;
         }
-        .discription{
+        .description{
             color: $textColor;
             @include text ( $textColor2, 16px, 400);
             letter-spacing: 0.1px;
