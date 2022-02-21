@@ -3,32 +3,41 @@ import style from './MyProject.module.scss';
 import styleContainer from './../Common/Stiles/Conteiner.module.css';
 import Project from './Project/Project';
 import Title from '../Common/components/title/Title';
-import todoImage from '../assets/image/Todolists.png';
-import networkImage from '../assets/image/Network.jpg'
-
+import todoImage from '../assets/image/todolistImage.png';
+import networkImage from '../assets/image/networkImage.png';
+import iconStyle from "../Skills/Skills";
 
 
 const MyProject = () => {
+    const iconStyle = (logo) => ({
+        backgroundImage: 'url(' + logo + ')',
+    });
 
-  const network = {
-    backgroundImage: 'url(' + networkImage + ')',
-  };
-  const todolist = {
-    backgroundImage: 'url(' + todoImage + ')',
-  };
+    const myProject = [
+        {
+            icon: iconStyle(networkImage), title: 'Social network',
+            description: 'Discover Business Strategy A thoughtful discovery process'
+        },
+        {
+            icon: iconStyle(todoImage), title: 'Todolist',
+            description: 'Discover Business Strategy A thoughtful discovery process'
+        }
 
-  return (
-    <div className={style.myProject}>
-      <div className={`${styleContainer.container} ${style.myProjectContsiner}`}>
-       <Title title={'My project'}/>
-        <div className={style.projects}>
-          <Project style = {network} title={'Project Management Admin Panel'} discription={'Discover Business Strategy A thoughtful discovery process'} />
-          <Project style = {todolist} title={'Название проекта'} discription={'Краткое описание'} />
-          
+    ]
+
+
+    return (
+        <div className={style.myProject}>
+            <div className={`${styleContainer.container} ${style.myProjectContsiner}`}>
+                <Title title={'My project'}/>
+                <div className={style.projects}>
+                    {myProject.map(p => <Project style={p.icon} title={p.title}
+                                                 description={p.description}/>)}
+
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }
 
 export default MyProject;

@@ -2,6 +2,7 @@ import react from 'react';
 import style from './Project.module.scss';
 
 
+
 const Project = (props) => {
   return (
     <div className={style.project}>
@@ -10,8 +11,8 @@ const Project = (props) => {
       </div>
       <div className={style.projectInfo}>
         <h3 className={style.projectTitle}>{props.title}</h3>
-        <span className={style.discription}>
-          {props.discription}
+        <span className={style.description}>
+          {props.description}
         </span>
       </div>
     </div>
