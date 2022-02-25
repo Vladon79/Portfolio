@@ -1,11 +1,9 @@
-import react from 'react';
 import style from './MyProject.module.scss';
 import styleContainer from './../Common/Stiles/Conteiner.module.css';
 import Project from './Project/Project';
 import Title from '../Common/components/title/Title';
 import todoImage from '../assets/image/todolistImage.png';
 import networkImage from '../assets/image/networkImage.png';
-import iconStyle from "../Skills/Skills";
 
 
 const MyProject = () => {
