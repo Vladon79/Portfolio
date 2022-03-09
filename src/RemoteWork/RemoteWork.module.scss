@@ -1,15 +1,17 @@
 @import '../Common/Stiles/sass/variables.scss';
 @import '../Common/Stiles/sass/mixins.scss';
 
-.contact{    
-    background-color: $bgColor2; 
-    .contactContsiner{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .title{
-            @include text( $textColor, 26px, 400);
-        }
-    } 
+.contact {
+  background-color: $bgColor2;
+
+  .contactContsiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      @include text($buttonFontFamily, $textColor, 26px, 400);
+    }
+  }
 }
 

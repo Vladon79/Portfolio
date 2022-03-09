@@ -1,12 +1,13 @@
 @import '../../../Common/Stiles/sass/variables.scss';
 @import '../../../Common/Stiles/sass/mixins.scss';
 
-.button{
-    @include text( $textColor, 18px, 800);
-    border-color: $primaryColor;
-    background: $primaryColor;
-    text-decoration: none;
-    padding: 10px 30px;
-    border-radius: 6px;
-    margin-bottom: 20px;
+.button {
+  @include text($buttonFontFamily, $bgColor, 14px, 400);
+  border-color: $primaryColor;
+  background: $primaryColor;
+  text-decoration: none;
+  word-spacing: 2px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-bottom: 20px;
 }
