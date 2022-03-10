@@ -3,6 +3,7 @@
 
 .project {
   //border-radius: 6px;
+  margin: 0px, 5px, 0;
   box-shadow: 0 3px 35px -8px #ccc;
   margin-top: 5px;
   display: flex;
@@ -62,7 +63,7 @@
     padding: 20px;
 
     .projectTitle {
-      @include text($textFontFamily,$textColor, 24px, 700);
+      @include text($textFontFamily, $textColor, 24px, 700);
       margin: 10px 0px 10px 0px;
     }
 

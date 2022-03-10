@@ -9,11 +9,10 @@
         .projects{
             flex-wrap: wrap;
             width: 100%;
-            // border: 1px solid green;
             display: flex;           
             justify-content: space-between;
             margin-top: 60px;
-            @media screen and (max-width: 876px ){
+            @media screen and (max-width: 1005px ){
                 justify-content: center;
             }
         }

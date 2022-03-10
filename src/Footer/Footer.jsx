@@ -1,12 +1,12 @@
 import react from 'react';
 import style from './Footer.module.scss';
 import styleContainer from './../Common/Stiles/Conteiner.module.css';
-import jsLogo from '../assets/icon/logo-js.png';
-import cssLogo from '../assets/icon/css-logo.png';
-import reactLogo from '../assets/icon/logo-React.png';
-import tsLogo from '../assets/icon/logo-typescript.png';
-import reduxLogo from '../assets/icon/logo-redux.png';
-import htmlLogo from '../assets/icon/logo-html.jpeg';
+import jsLogo from '../assets/icon/logo-javascript.svg';
+import cssLogo from '../assets/icon/css-3.svg';
+import reactLogo from '../assets/icon/react-2.svg';
+import tsLogo from '../assets/icon/typescript.svg';
+import reduxLogo from '../assets/icon/redux.svg';
+import htmlLogo from '../assets/icon/html-1.svg';
 
 const Footer = () => {
     const iconStyle = (logo) => ({
