@@ -5,6 +5,16 @@
   height: 100vh;
   background-color: $bgColor2;
 
+  .particles {
+    position: relative;
+    top: 0;
+    left: 0;
+    button: 0;
+    right: 0;
+    opacity: 0.3;
+
+  }
+
   .container {
     flex-wrap: wrap;
     padding: 0 40px;
