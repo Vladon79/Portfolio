@@ -25,7 +25,7 @@ const MyProject = () => {
 
 
     return (
-        <div className={style.myProject}>
+        <div id="myProject" className={style.myProject}>
             <div className={`${styleContainer.container} ${style.myProjectContsiner}`}>
                 <Title title={'My project'}/>
                 <div className={style.projects}>

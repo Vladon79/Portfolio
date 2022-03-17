@@ -1,19 +1,42 @@
 import style from './Nav.module.scss';
-import {NavLink} from "react-router-dom";
+import {Link} from "react-scroll";
+
 
 const Nav = () => {
     return (
         <div className={style.nav}>
-            <NavLink children={'Home'} to={'/home'} className={({isActive}) => (isActive ? style.linkActive : style.link)}/>
-            <NavLink children={'Skills'}to={'/skills'} className={({isActive}) => (isActive ? style.linkActive : style.link)}/>
-            <NavLink children={'My project'} to={'/myProject'}className={({isActive}) => (isActive ? style.linkActive : style.link)}/>
-            <NavLink children={'Contact'}to={'/contact'} className={({isActive}) => (isActive ? style.linkActive : style.link)}/>
-
-
-            {/*<a href="">Home</a>*/}
-            {/*<a href="">Skills</a>*/}
-            {/*<a href="">My project</a>*/}
-            {/*<a href="">Contact</a>*/}
+            <Link
+                activeClass={style.linkActive}
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+            >Home</Link>
+            <Link
+                activeClass={style.linkActive}
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+            >Skills</Link>
+            <Link
+                activeClass={style.linkActive}
+                to="myProject"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+            >My project</Link>
+            <Link
+                activeClass={style.linkActive}
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+            >Contact</Link>
 
         </div>
     );

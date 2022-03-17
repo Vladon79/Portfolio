@@ -15,17 +15,6 @@
   margin-block: 5px;
   padding: 70px 20px;
 
-  //&::before {
-  //  content: "";
-  //  position: absolute;
-  //  top: 100%;
-  //  left: 0;
-  //  height: 100%;
-  //  width: 100%;
-  //  background-color: #2f3dff;
-  //  z-index: -1;
-  //  transition: all 0.3s ease-in-out;
-  //}
 
   .icon {
     width: 60px;
@@ -37,17 +26,6 @@
     background-size: cover;
     background-position: center;
     position: relative;
-
-    &::before {
-      position: absolute;
-      content: '';
-      background-color: $blokColor;
-      opacity: 0.4;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-    }
 
   }
 

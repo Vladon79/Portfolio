@@ -2,11 +2,9 @@ import './App.css';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
-import Main from './Main/Main';
 import MyProject from './MyProject/MyProject';
-import RemoteWork from './RemoteWork/RemoteWork';
 import Skills from './Skills/Skills';
-import {Route, Router, Routes} from "react-router-dom";
+import Main from "./Main/Main";
 
 function App() {
     return (

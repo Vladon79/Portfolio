@@ -33,11 +33,14 @@
     & h1 {
       @include text($textFontFamily, $primaryColor, 48px, 800);
       margin: 0;
+      text-align: center;
     }
 
-    & p {
-      @include text($textFontFamily, $textColor2, 17px, 400);
-
+    div{
+      margin-top: 8px;
+      span{
+        @include text($textFontFamily, $textColor2, 17px, 400);
+      }
     }
 
 

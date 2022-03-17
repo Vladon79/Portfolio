@@ -9,11 +9,13 @@
     width: 80%;
   }
 
-  .link {
+  a {
     text-decoration: none;
     @include text($buttonFontFamily, $bgColor, 14px, 600)
+    &:hover{
+      color: $primaryColor;
+    }
   }
-
   .linkActive {
     text-decoration: none;
     @include text($buttonFontFamily, $primaryColor, 14px, 600);

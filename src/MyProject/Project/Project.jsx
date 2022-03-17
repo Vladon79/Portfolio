@@ -7,7 +7,7 @@ const Project = (props) => {
         <Zoom>
             <div className={style.project}>
                 <div style={props.style} className={style.icon}>
-                    <a className={style.button}>Посмотреть</a>
+                    <a className={style.button} onClick={()=>console.log('111')}>See More</a>
                 </div>
                 <div className={style.projectInfo}>
                     <h3 className={style.projectTitle}>{props.title}</h3>

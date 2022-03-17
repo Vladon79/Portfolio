@@ -17,18 +17,34 @@
       display: flex;
       justify-content: space-between;
 
-      .block {
+      .containerForBlock {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
         display: flex;
-        //border-radius: 50%;
-        //border: 1px solid $primaryColor ;
         justify-content: center;
         align-items: center;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        width: 30px;
-        height: 30px;
+        transition: 0.3s ease-in-out;
+
+        .block {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-size: cover;
+          background-position: center;
+          position: relative;
+          width: 30px;
+          height: 30px;
+
+        }
+
+        &:hover {
+          cursor: pointer;
+          background-color: $primaryColor;
+        }
+
       }
+
     }
 
     & p {
