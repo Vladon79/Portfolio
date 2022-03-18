@@ -4,10 +4,7 @@ import {Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scrol
 
 const Nav = () => {
     return (
-        <header>
-            <button onClick="document.getElementById('title').scrollIntoView()">
-                Back to the top
-            </button>
+        <header className={style.nav}>
             <Link
                 activeClass={style.linkActive}
                 to="home"

@@ -4,11 +4,11 @@ const MyParticles = () => {
     return <Particles
         id="tsparticles"
         options={{
-            fpsLimit: 70,
+            fpsLimit: 150,
             interactivity: {
                 events: {
                     onClick: {
-                        enable: true,
+                        enable: false,
                         mode: "push",
                     },
                     onHover: {
@@ -52,7 +52,7 @@ const MyParticles = () => {
                     enable: true,
                     outMode: "bounce",
                     random: false,
-                    speed: 6,
+                    speed: 4,
                     straight: false,
                 },
                 number: {

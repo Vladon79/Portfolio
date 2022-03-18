@@ -1,5 +1,6 @@
 {
-  "name": "verstka",
+  "name": "Portfolio",
+  "homepage": "https://Vladon79.github.io/Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +22,6 @@
     "typescript": "^4.6.2",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://Vladon79.github.io/Portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

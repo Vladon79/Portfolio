@@ -12,8 +12,10 @@
   a {
     text-decoration: none;
     @include text($buttonFontFamily, $bgColor, 14px, 600);
+    cursor: pointer;
 
     &:hover {
+      cursor: pointer;
       color: $primaryColor;
     }
   }
