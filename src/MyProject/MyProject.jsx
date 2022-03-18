@@ -4,6 +4,7 @@ import Project from './Project/Project';
 import Title from '../Common/components/title/Title';
 import todoImage from '../assets/image/todolistImage.png';
 import networkImage from '../assets/image/networkImage.png';
+import cardsProject from '../assets/image/cards.png';
 
 
 const MyProject = () => {
@@ -14,11 +15,18 @@ const MyProject = () => {
     const myProject = [
         {
             icon: iconStyle(networkImage), title: 'Social network',
-            description: 'Discover Business Strategy A thoughtful discovery process'
+            description: 'Discover Business Strategy A thoughtful discovery process',
+            rerender: 'https://vladon79.github.io/Network/'
         },
         {
             icon: iconStyle(todoImage), title: 'Todolist',
-            description: 'Discover Business Strategy A thoughtful discovery process'
+            description: 'Discover Business Strategy A thoughtful discovery process',
+            rerender: 'https://vladon79.github.io/Network/'
+        },
+        {
+            icon: iconStyle(cardsProject), title: 'Cards',
+            description: 'Discover Business Strategy A thoughtful discovery process',
+            rerender: 'https://vladon79.github.io/signin'
         }
 
     ]
@@ -30,7 +38,7 @@ const MyProject = () => {
                 <Title title={'My project'}/>
                 <div className={style.projects}>
                     {myProject.map(p => <Project key={p.title} style={p.icon} title={p.title}
-                                                 description={p.description}/>)}
+                                                 description={p.description} rerender={p.rerender}/>)}
 
                 </div>
             </div>

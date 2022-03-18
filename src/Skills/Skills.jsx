@@ -9,6 +9,10 @@ import reactLogo from '../assets/icon/react-2.svg';
 import tsLogo from '../assets/icon/typescript.svg';
 import reduxLogo from '../assets/icon/redux.svg';
 import htmlLogo from '../assets/icon/html-1.svg';
+import storyBook from '../assets/icon/storyBook.svg';
+import sass from '../assets/icon/sass.svg';
+import postman from '../assets/icon/postman.svg';
+import git from '../assets/icon/git.svg';
 
 const Skills = () => {
     const iconStyle = (logo) => ({
@@ -45,6 +49,26 @@ const Skills = () => {
             title: 'HTML',
             description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML',
             icon: iconStyle(htmlLogo)
+        },
+        {
+            title: 'Story book',
+            description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML',
+            icon: iconStyle(storyBook)
+        },
+        {
+            title: 'SASS',
+            description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML',
+            icon: iconStyle(sass)
+        },
+        {
+            title: 'Postman',
+            description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML',
+            icon: iconStyle(postman)
+        },
+        {
+            title: 'GIT',
+            description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML',
+            icon: iconStyle(git)
         },
     ]
     return (

@@ -12,9 +12,9 @@ const Contact = (props) => {
     const iconStyle = (logo) => ({
         backgroundImage: 'url(' + logo + ')',
     });
-    const logo = [{icon: iconStyle(telegram), data: '@vladKlopot'},
-        {icon: iconStyle(email), data: 'vla3ik@gmail.com'},
-        {icon: iconStyle(phone), data: '+375(33)643-61-37'}]
+    const logo = [{icon: iconStyle(telegram), data: '@vladKlopot', rerender: 'https://t.me/vladKlopot'},
+        {icon: iconStyle(email), data: 'vla3ik@gmail.com', rerender: 'mailto:vla3ik@gmail.com'},
+        {icon: iconStyle(phone), data: '+375(33)643-61-37', rerender: 'https://t.me/vladKlopot'}]
     return (
         <div id="contact" className={style.contact}>
             <div className={`${styleContainer.container} ${style.contactContainer}`}>
@@ -22,9 +22,9 @@ const Contact = (props) => {
                     <Title title={'Contact'}/>
                     <div className={style.containerBlock}>
                         {logo.map(l => <div className={style.logo} key={l.data}>
-                                <div className={style.containerForBlock}>
+                                <a href={l.rerender} className={style.containerForBlock}>
                                     <div style={l.icon} className={style.block}></div>
-                                </div>
+                                </a>
                                 <p>{l.data}</p>
                             </div>
                         )}

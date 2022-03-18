@@ -1,4 +1,5 @@
 @import '../Common/Stiles/sass/variables.scss';
+@import '../Common/Stiles/sass/mixins';
 
 .header{
     z-index: 999;
@@ -10,4 +11,18 @@
     background-color: $bgColor2;
     justify-content: space-evenly;
     align-items: center;
+    @include text($buttonFontFamily, $bgColor, 14px, 600);
+}
+
+.headerWhite{
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    padding-right: 10px;
+    display: flex;
+    height: 80px;
+    background-color: $blokColor;
+    justify-content: space-evenly;
+    align-items: center;
+    @include text($buttonFontFamily, $bgColor2, 14px, 600);
 }
