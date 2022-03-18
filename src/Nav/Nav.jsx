@@ -1,10 +1,13 @@
 import style from './Nav.module.scss';
-import {Link} from "react-scroll";
+import {Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller} from 'react-scroll'
 
 
 const Nav = () => {
     return (
-        <div className={style.nav}>
+        <header>
+            <button onClick="document.getElementById('title').scrollIntoView()">
+                Back to the top
+            </button>
             <Link
                 activeClass={style.linkActive}
                 to="home"
@@ -38,8 +41,8 @@ const Nav = () => {
                 duration={500}
             >Contact</Link>
 
-        </div>
+        </header>
     );
 }
 
-export default Nav;
+export default Nav

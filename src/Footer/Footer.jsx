@@ -15,7 +15,7 @@ const Footer = () => {
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 <h3 className={style.title}>Klopot Vlad</h3>
                 <div className={style.containerBlock}>
-                    {logo.map(l => <div className={style.containerForBlock}><div style={l} className={style.block}></div></div>)}
+                    {logo.map(l => <div key={l.backgroundImage} className={style.containerForBlock}><div style={l} className={style.block}></div></div>)}
                 </div>
                 <p>@Все права защищены</p>
             </div>

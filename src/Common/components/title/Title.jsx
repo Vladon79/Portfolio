@@ -1,4 +1,3 @@
-import react from 'react';
 import style from './Title.module.scss';
 
 

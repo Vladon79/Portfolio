@@ -52,11 +52,11 @@ const Skills = () => {
             <div className={`${styleContainer.container} ${style.skillsContsiner}`}>
                 <Title title={'Skills'}/>
                 <div className={style.skills}>
-                    {skils.map(s => {
-                        return <Skill title={s.title}
-                                      icon={s.icon}
-                                      description={s.description}/>
-                    })}
+                    {skils.map(s => <Skill key={s.title}
+                                           title={s.title}
+                                           icon={s.icon}
+                                           description={s.description}/>
+                    )}
                 </div>
             </div>
 

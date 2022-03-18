@@ -7,7 +7,7 @@ import ReactTypingEffect from "react-typing-effect";
 const Main = () => {
     return (
         <div id="home" className={style.mainBlock}>
-            <MyParticles/>
+            {/*<MyParticles/>*/}
             <div className={style.container}>
                 <Fade bottom>
                     <h3>Welcome There!</h3>

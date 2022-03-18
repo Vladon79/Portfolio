@@ -9676,6 +9676,13 @@ react-scroll@^1.8.6:
     lodash.throttle "^4.1.1"
     prop-types "^15.7.2"
 
+react-skrollr@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-skrollr/-/react-skrollr-1.0.4.tgz#5f8a4426bba789e70e78d2f27283149aef9e694c"
+  integrity sha1-X4pEJruniecOeNLycoMUmu+eaUw=
+  dependencies:
+    skrollr "0.6.26"
+
 react-tsparticles@^1.42.1:
   version "1.42.1"
   resolved "https://registry.yarnpkg.com/react-tsparticles/-/react-tsparticles-1.42.1.tgz#041951b29ac533857a31bc3f0ba6c7182899f43e"
@@ -10475,6 +10482,11 @@ sisteransi@^1.0.5:
   version "1.0.5"
   resolved "https://registry.npmjs.org/sisteransi/-/sisteransi-1.0.5.tgz"
   integrity sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==
+
+skrollr@0.6.26:
+  version "0.6.26"
+  resolved "https://registry.yarnpkg.com/skrollr/-/skrollr-0.6.26.tgz#65d1aafcc69fc6d27e6cff0f086c25b31b20ab18"
+  integrity sha1-ZdGq/MafxtJ+bP8PCGwlsxsgqxg=
 
 slash@^3.0.0:
   version "3.0.0"

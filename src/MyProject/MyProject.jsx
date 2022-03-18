@@ -29,7 +29,7 @@ const MyProject = () => {
             <div className={`${styleContainer.container} ${style.myProjectContsiner}`}>
                 <Title title={'My project'}/>
                 <div className={style.projects}>
-                    {myProject.map(p => <Project style={p.icon} title={p.title}
+                    {myProject.map(p => <Project key={p.title} style={p.icon} title={p.title}
                                                  description={p.description}/>)}
 
                 </div>

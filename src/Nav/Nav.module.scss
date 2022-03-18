@@ -11,11 +11,37 @@
 
   a {
     text-decoration: none;
-    @include text($buttonFontFamily, $bgColor, 14px, 600)
-    &:hover{
+    @include text($buttonFontFamily, $bgColor, 14px, 600);
+
+    &:hover {
       color: $primaryColor;
     }
   }
+
+  .linkActive {
+    text-decoration: none;
+    @include text($buttonFontFamily, $primaryColor, 14px, 600);
+  }
+}
+
+.navWhite {
+  background-color: #cccccc;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 600px) {
+    width: 80%;
+  }
+
+  a {
+    text-decoration: none;
+    @include text($buttonFontFamily, $bgColor, 14px, 600);
+
+    &:hover {
+      color: $primaryColor;
+    }
+  }
+
   .linkActive {
     text-decoration: none;
     @include text($buttonFontFamily, $primaryColor, 14px, 600);

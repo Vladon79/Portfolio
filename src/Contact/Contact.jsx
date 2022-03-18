@@ -21,8 +21,7 @@ const Contact = (props) => {
                 <Fade left>
                     <Title title={'Contact'}/>
                     <div className={style.containerBlock}>
-                        {logo.map(l =>
-                            <div className={style.logo}>
+                        {logo.map(l => <div className={style.logo} key={l.data}>
                                 <div className={style.containerForBlock}>
                                     <div style={l.icon} className={style.block}></div>
                                 </div>
