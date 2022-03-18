@@ -26,7 +26,7 @@ const MyProject = () => {
         {
             icon: iconStyle(cardsProject), title: 'Cards',
             description: 'Discover Business Strategy A thoughtful discovery process',
-            rerender: 'https://vladon79.github.io/signin'
+            rerender: 'https://vladon79.github.io/Project/'
         }
 
     ]
@@ -35,7 +35,7 @@ const MyProject = () => {
     return (
         <div id="myProject" className={style.myProject}>
             <div className={`${styleContainer.container} ${style.myProjectContsiner}`}>
-                <Title title={'My project'}/>
+                <Title title={'Project'}/>
                 <div className={style.projects}>
                     {myProject.map(p => <Project key={p.title} style={p.icon} title={p.title}
                                                  description={p.description} rerender={p.rerender}/>)}

@@ -13,6 +13,8 @@ import storyBook from '../assets/icon/storyBook.svg';
 import sass from '../assets/icon/sass.svg';
 import postman from '../assets/icon/postman.svg';
 import git from '../assets/icon/git.svg';
+import gitHub from '../assets/icon/github_logo.svg';
+import formik from '../assets/icon/formik.svg';
 
 const Skills = () => {
     const iconStyle = (logo) => ({
@@ -41,34 +43,46 @@ const Skills = () => {
             icon: iconStyle(reduxLogo)
         },
         {
-            title: 'Css',
-            description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML',
-            icon: iconStyle(cssLogo)
-        },
-        {
             title: 'HTML',
             description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML',
             icon: iconStyle(htmlLogo)
         },
         {
-            title: 'Story book',
+            title: 'Css',
             description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML',
-            icon: iconStyle(storyBook)
+            icon: iconStyle(cssLogo)
         },
         {
             title: 'SASS',
             description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML',
             icon: iconStyle(sass)
         },
+
+        {
+            title: 'Story book',
+            description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML',
+            icon: iconStyle(storyBook)
+        },
+
         {
             title: 'Postman',
             description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML',
             icon: iconStyle(postman)
         },
         {
+            title: 'Formik',
+            description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML',
+            icon: iconStyle(formik)
+        },
+        {
             title: 'GIT',
             description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML',
             icon: iconStyle(git)
+        },
+        {
+            title: 'Github',
+            description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML',
+            icon: iconStyle(gitHub)
         },
     ]
     return (

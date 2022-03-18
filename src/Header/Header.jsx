@@ -11,8 +11,6 @@ const Header = () => {
         setScrollY(window.pageYOffset);
     }
 
-
-    console.log(scrollY)
     useEffect(() => {
         function watchScroll() {
             window.addEventListener("scroll", logit);
