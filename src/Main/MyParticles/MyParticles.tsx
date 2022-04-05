@@ -4,7 +4,7 @@ const MyParticles = () => {
     return <Particles
         id="tsparticles"
         options={{
-            fpsLimit: 150,
+            fpsLimit: 100,
             interactivity: {
                 events: {
                     onClick: {
@@ -35,10 +35,10 @@ const MyParticles = () => {
             },
             particles: {
                 color: {
-                    value: "#ffffff",
+                    value: "#f6f6f6",
                 },
                 links: {
-                    color: "#ffffff",
+                    color: "#f6f6f6",
                     distance: 150,
                     enable: true,
                     opacity: 0.5,
@@ -52,7 +52,7 @@ const MyParticles = () => {
                     enable: true,
                     outMode: "bounce",
                     random: false,
-                    speed: 3,
+                    speed: 4,
                     straight: false,
                 },
                 number: {

@@ -11,7 +11,8 @@ const Project = (props) => {
                 </div>
                 <div className={style.projectInfo}>
                     <h3 className={style.projectTitle}>{props.title}</h3>
-                    <span className={style.description}>{props.description}</span>
+                    <p className={style.description}>{props.description}</p>
+                    <p className={style.description}>{props.technologies}</p>
                 </div>
             </div>
         </Zoom>
