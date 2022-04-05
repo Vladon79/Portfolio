@@ -17,8 +17,8 @@
 
 
   .icon {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     background-color: #f6f6f6;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@
   }
 
   .projectTitle {
-    @include text($textFontFamily, $textColor, 24px, 700);
+    @include text($textFontFamily, $textColor, 32px, 900);
     margin: 10px 0px 10px 0px;
   }
 

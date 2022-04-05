@@ -3,12 +3,12 @@
 
 .mainBlock {
   height: 100vh;
-  background: url('https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2014/06/how-to-see-black-and-white-06.jpg?resize=600%2C400&ssl=1') ;
+  background: url('https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2014/06/how-to-see-black-and-white-06.jpg?resize=600%2C400&ssl=1');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  background-color: rgba(0,0,0,0.75);
+  background-color: rgba(0, 0, 0, 0.75);
   background-blend-mode: overlay;
 
   .particles {
@@ -42,9 +42,10 @@
       text-align: center;
     }
 
-    div{
+    div {
       margin-top: 8px;
-      span{
+
+      span {
         @include text($textFontFamily, $textColor2, 17px, 400);
       }
     }
@@ -55,6 +56,43 @@
       height: 300px;
       background-color: #728732;
     }
+
+    .divContainerForBlock {
+      margin-top: 3px;
+      width: 20%;
+      display: flex;
+      justify-content: space-between;
+
+      .containerForBlock {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+
+        .block {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-size: cover;
+          background-position: center;
+          position: relative;
+          width: 30px;
+          height: 30px;
+
+        }
+
+        &:hover {
+          cursor: pointer;
+          background-color: $primaryColor;
+        }
+
+      }
+
+    }
+
   }
 
 }
