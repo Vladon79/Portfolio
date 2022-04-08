@@ -15,6 +15,14 @@ const Nav = () => {
             >Home</Link>
             <Link
                 activeClass={style.linkActive}
+                to="aboutMe"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+            >About me</Link>
+            <Link
+                activeClass={style.linkActive}
                 to="skills"
                 spy={true}
                 smooth={true}

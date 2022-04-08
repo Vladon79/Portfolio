@@ -1,0 +1,24 @@
+@import '../Common/Stiles/sass/variables.scss';
+@import '../Common/Stiles/sass/mixins.scss';
+
+.aboutMe {
+  min-height: 100vh;
+  background-color: $bgColor;
+
+  .aboutMeContainer {
+    flex-direction: column;
+
+    .infoForMe {
+      margin-top: 60px;
+
+      p {
+        text-indent: 20px;
+        @include text($buttonFontFamily, $titleColor, 24px, 400);
+      }
+
+    }
+
+
+  }
+}
+

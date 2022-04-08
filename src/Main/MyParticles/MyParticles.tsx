@@ -3,12 +3,13 @@ import Particles from "react-tsparticles";
 const MyParticles = () => {
     return <Particles
         id="tsparticles"
+
         options={{
             fpsLimit: 100,
             interactivity: {
                 events: {
                     onClick: {
-                        enable: false,
+                        enable: true,
                         mode: "push",
                     },
                     onHover: {
@@ -52,7 +53,7 @@ const MyParticles = () => {
                     enable: true,
                     outMode: "bounce",
                     random: false,
-                    speed: 4,
+                    speed: 3,
                     straight: false,
                 },
                 number: {
@@ -73,7 +74,6 @@ const MyParticles = () => {
                     value: 5,
                 },
             },
-            detectRetina: true,
         }}
     />
 }
