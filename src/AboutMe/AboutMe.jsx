@@ -2,7 +2,8 @@ import style from './AboutMe.module.scss';
 import styleContainer from './../Common/Stiles/Conteiner.module.css';
 import Title from '../Common/components/title/Title';
 import Fade from 'react-reveal/Fade';
-import Tilt from 'react-tilt'
+import Tilt from 'react-tilt';
+import photo from '../assets/image/photo_about_me.jpeg'
 
 
 const AboutMe = () => {
@@ -17,7 +18,8 @@ const AboutMe = () => {
                         <div className={style.imageContainer}>
                             <section className={style.border}>
                                 <Tilt className={style.tilt} options={{scale: 1, max: 25, perspective: 2000,}}>
-                                    <div className={style.image}></div>
+                                    {/*<div className={style.image}></div>*/}
+                                    <img src={photo} className={style.image}/>
                                 </Tilt>
                             </section>
                         </div>

@@ -62,11 +62,14 @@
 
 
             .image {
-              background: url('https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2014/06/how-to-see-black-and-white-06.jpg?resize=600%2C400&ssl=1');
+              //background: url(photo_about_me.jpeg);
               height: 95%;
-              width: 95%;
+              width: 400px;
               z-index: 1;
-
+              @media screen and (max-width: 450px) {
+                width: 100%;
+                height: 80%;
+              }
 
             }
           }
