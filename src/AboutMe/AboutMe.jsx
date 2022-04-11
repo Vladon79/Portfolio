@@ -16,12 +16,10 @@ const AboutMe = () => {
                     <div className={style.infoForMe}>
 
                         <div className={style.imageContainer}>
-                            <section className={style.border}>
-                                <Tilt className={style.tilt} options={{scale: 1, max: 25, perspective: 2000,}}>
-                                    {/*<div className={style.image}></div>*/}
-                                    <img src={photo} className={style.image}/>
-                                </Tilt>
-                            </section>
+                            <Tilt className={style.tilt} options={{scale: 1, max: 25, perspective: 2000,}}>
+                                <img src={photo} className={style.image}/>
+                            </Tilt>
+                            <span className={style.spanBorrder}></span>
                         </div>
 
                         <div className={style.info}>
