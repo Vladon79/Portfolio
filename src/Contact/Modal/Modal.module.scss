@@ -24,6 +24,12 @@
     height: 15%;
     transform: scale(0.5);
     transition: 0.5s all;
+    @media screen and (max-width: 750px) {
+      width: 50%;
+    }
+    @media screen and (max-width: 420px) {
+      width: 70%;
+    }
 
     .name_section {
       display: flex;
@@ -38,7 +44,8 @@
         }
       }
     }
-    h2{
+
+    h2 {
       text-align: center;
     }
 

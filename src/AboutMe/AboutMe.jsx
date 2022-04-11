@@ -16,7 +16,7 @@ const AboutMe = () => {
                     <div className={style.infoForMe}>
 
                         <div className={style.imageContainer}>
-                            <Tilt className={style.tilt} options={{scale: 1, max: 25, perspective: 2000,}}>
+                            <Tilt className={style.tilt} options={{max: 25, perspective: 1200,}}>
                                 <img src={photo} className={style.image}/>
                             </Tilt>
                             <span className={style.spanBorrder}></span>

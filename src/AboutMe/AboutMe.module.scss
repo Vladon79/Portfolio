@@ -76,7 +76,7 @@
           bottom: 0;
           z-index: -9;
           height: 80%;
-          width: 350px;
+          width: 340px;
           border: 10px solid $primaryColor;
           opacity: 0.3;
           transform: scale(1.13) translate(10%, 0px);
@@ -100,7 +100,7 @@
       .info {
         width: 60%;
         margin-left: 2px;
-        padding-left: 30px;
+        padding-left: 45px;
         padding-right: 15px;
         @media screen and (max-width: 1180px) {
           width: 100%;

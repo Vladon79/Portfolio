@@ -3,7 +3,6 @@ import Particles from "react-tsparticles";
 const MyParticles = () => {
     return <Particles
         id="tsparticles"
-
         options={{
             fpsLimit: 100,
             interactivity: {
@@ -53,12 +52,12 @@ const MyParticles = () => {
                     enable: true,
                     outMode: "bounce",
                     random: false,
-                    speed: 3,
+                    speed: 2,
                     straight: false,
                 },
                 number: {
                     density: {
-                        enable: true,
+                        enable: false,
                         area: 800,
                     },
                     value: 80,
@@ -71,7 +70,7 @@ const MyParticles = () => {
                 },
                 size: {
                     random: true,
-                    value: 5,
+                    value: 4,
                 },
             },
         }}
