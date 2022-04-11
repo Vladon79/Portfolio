@@ -9713,6 +9713,11 @@ react-scroll@^1.8.6:
     lodash.throttle "^4.1.1"
     prop-types "^15.7.2"
 
+react-tilt@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/react-tilt/-/react-tilt-0.1.4.tgz#0ac1f33674a3fff6c617cf411002d7ecdd2ebcb1"
+  integrity sha512-bVeRumg+RIn6QN8S92UmubGqX/BG6/QeQISBeAcrS/70dpo/jVj+sjikIawDl5wTuPdubFH8zH0EMulWIctsnw==
+
 react-tsparticles@^1.42.1:
   version "1.42.1"
   resolved "https://registry.yarnpkg.com/react-tsparticles/-/react-tsparticles-1.42.1.tgz#041951b29ac533857a31bc3f0ba6c7182899f43e"
