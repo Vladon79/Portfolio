@@ -25,9 +25,8 @@ const AboutMe = () => {
                         <div className={style.info}>
                             <p> I'm frontend developer with experience in creating SPA with React/Redux/ TypeScript in
                                 team. Now I improve my skills in this direction and expanding them with new
-                                technologies. I spend my leisure time on Codewars or by improving english skills. Open
-                                to your suggestions.</p>
-
+                                technologies. And also I have interest to learn React Native. My free time is dedicated
+                                to solving katas on Codewars and boosting my English. Open to your suggestion.</p>
                         </div>
 
                     </div>

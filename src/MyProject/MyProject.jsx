@@ -3,7 +3,7 @@ import styleContainer from './../Common/Stiles/Conteiner.module.css';
 import Project from './Project/Project';
 import Title from '../Common/components/title/Title';
 import todoImage from '../assets/image/todolistImage.png';
-import networkImage from '../assets/image/networkImage.png';
+import networkImage from '../assets/image/network.png';
 import cardsProject from '../assets/image/cards.png';
 
 
