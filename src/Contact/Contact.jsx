@@ -24,7 +24,7 @@ const Contact = (props) => {
         backgroundImage: 'url(' + logo + ')',
     });
     const logo = [{icon: iconStyle(telegram), data: '@vladKlopot', rerender: 'https://t.me/vladKlopot'},
-        {icon: iconStyle(email), data: 'vla3ik@gmail.com', rerender: 'https://mailto:vla3ik@gmail.com'},
+        {icon: iconStyle(email), data: 'vla3ik@gmail.com', rerender: 'mailto:vla3ik@gmail.com'},
         {icon: iconStyle(phone), data: '+375(33)643-61-37', title: 'phone'}]
     return (
         <div id="contact" className={style.contact}>
