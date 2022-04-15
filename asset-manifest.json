@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f1ad336f.chunk.css",
-    "main.js": "/Portfolio/static/js/main.198996e5.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.198996e5.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.6f1b18aa.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.6f1b18aa.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.6e8c2334.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.6e8c2334.js.map",
     "static/js/2.8f8abb78.chunk.js": "/Portfolio/static/js/2.8f8abb78.chunk.js",
@@ -14,7 +14,7 @@
     "index.html": "/Portfolio/index.html",
     "static/css/main.f1ad336f.chunk.css.map": "/Portfolio/static/css/main.f1ad336f.chunk.css.map",
     "static/js/2.8f8abb78.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.8f8abb78.chunk.js.LICENSE.txt",
-    "static/media/cards.0ff49983.png": "/Portfolio/static/media/cards.0ff49983.png",
+    "static/media/cards.a1c91d52.png": "/Portfolio/static/media/cards.a1c91d52.png",
     "static/media/codewars-svgrepo-com.64c4a209.svg": "/Portfolio/static/media/codewars-svgrepo-com.64c4a209.svg",
     "static/media/css-3.b47526a3.svg": "/Portfolio/static/media/css-3.b47526a3.svg",
     "static/media/email-svgrepo-com.be0fc363.svg": "/Portfolio/static/media/email-svgrepo-com.be0fc363.svg",
@@ -25,7 +25,7 @@
     "static/media/html-1.21eae339.svg": "/Portfolio/static/media/html-1.21eae339.svg",
     "static/media/linkedin.e7404a9c.svg": "/Portfolio/static/media/linkedin.e7404a9c.svg",
     "static/media/logo-javascript.36ec95aa.svg": "/Portfolio/static/media/logo-javascript.36ec95aa.svg",
-    "static/media/networkImage.1c698481.png": "/Portfolio/static/media/networkImage.1c698481.png",
+    "static/media/network.e29bfa5c.png": "/Portfolio/static/media/network.e29bfa5c.png",
     "static/media/phone-call-svgrepo-com.f1c08a4b.svg": "/Portfolio/static/media/phone-call-svgrepo-com.f1c08a4b.svg",
     "static/media/photo_about_me.e4cd3b2f.jpeg": "/Portfolio/static/media/photo_about_me.e4cd3b2f.jpeg",
     "static/media/postman.1c9c7c46.svg": "/Portfolio/static/media/postman.1c9c7c46.svg",
@@ -34,13 +34,13 @@
     "static/media/sass.8fc8ee01.svg": "/Portfolio/static/media/sass.8fc8ee01.svg",
     "static/media/storyBook.2c8b9974.svg": "/Portfolio/static/media/storyBook.2c8b9974.svg",
     "static/media/telegram.d0e3280a.svg": "/Portfolio/static/media/telegram.d0e3280a.svg",
-    "static/media/todolistImage.7aaebd7d.png": "/Portfolio/static/media/todolistImage.7aaebd7d.png",
+    "static/media/todolistImage.5ca7e83a.png": "/Portfolio/static/media/todolistImage.5ca7e83a.png",
     "static/media/typescript.d768e568.svg": "/Portfolio/static/media/typescript.d768e568.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6e8c2334.js",
     "static/js/2.8f8abb78.chunk.js",
     "static/css/main.f1ad336f.chunk.css",
-    "static/js/main.198996e5.chunk.js"
+    "static/js/main.6f1b18aa.chunk.js"
   ]
 }
