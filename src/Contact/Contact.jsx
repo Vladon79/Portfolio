@@ -49,7 +49,7 @@ const Contact = (props) => {
                         <input className={style.input} placeholder={'Name*'}/>
                         <input className={style.input} placeholder={'Email*'}/>
                         <textarea className={style.textarea} placeholder={'Message*'}/>
-                        <Button title={'Send message'}/>
+                        <Button disabled title={'Send message'}/>
                     </form>
                 </Fade>
             </div>
