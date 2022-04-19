@@ -5,6 +5,7 @@ import ReactTypingEffect from "react-typing-effect";
 import gitHub from "../assets/iconMesenger/github.svg";
 import codevars from "../assets/iconMesenger/codewars-svgrepo-com.svg";
 import link from "../assets/iconMesenger/linkedin.svg";
+import photo from '../assets/image/photo.jpeg'
 
 
 const Main = () => {
@@ -20,7 +21,9 @@ const Main = () => {
         },
     ]
     return (
-        <div id="home" className={style.mainBlock}>
+        <div style={{
+            backgroundImage: `url(${photo})`
+        }} id="home" className={style.mainBlock}>
             <MyParticles/>
             <div className={style.container}>
                 <Fade bottom>
@@ -28,7 +31,7 @@ const Main = () => {
                     <h1>I'm Klopot Vlad</h1>
                     <ReactTypingEffect text={["I'm front-end developer"]}/>
                     <div className={style.divContainerForBlock}>
-                        {logo.map(l => <div key={l.rerender} to={l.rerender} className={style.containerForBlock} >
+                        {logo.map(l => <div key={l.rerender} to={l.rerender} className={style.containerForBlock}>
                             <a href={l.rerender} style={l.icon} className={style.block}></a>
                         </div>)}
                     </div>
