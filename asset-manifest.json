@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f1ad336f.chunk.css",
-    "main.js": "/Portfolio/static/js/main.6f1b18aa.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.6f1b18aa.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.1ce98ece.chunk.css",
+    "main.js": "/Portfolio/static/js/main.fde4aac2.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.fde4aac2.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.6e8c2334.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.6e8c2334.js.map",
     "static/js/2.8f8abb78.chunk.js": "/Portfolio/static/js/2.8f8abb78.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/4.5dbf9fde.chunk.js": "/Portfolio/static/js/4.5dbf9fde.chunk.js",
     "static/js/4.5dbf9fde.chunk.js.map": "/Portfolio/static/js/4.5dbf9fde.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.f1ad336f.chunk.css.map": "/Portfolio/static/css/main.f1ad336f.chunk.css.map",
+    "static/css/main.1ce98ece.chunk.css.map": "/Portfolio/static/css/main.1ce98ece.chunk.css.map",
     "static/js/2.8f8abb78.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.8f8abb78.chunk.js.LICENSE.txt",
     "static/media/cards.a1c91d52.png": "/Portfolio/static/media/cards.a1c91d52.png",
     "static/media/codewars-svgrepo-com.64c4a209.svg": "/Portfolio/static/media/codewars-svgrepo-com.64c4a209.svg",
@@ -27,6 +27,7 @@
     "static/media/logo-javascript.36ec95aa.svg": "/Portfolio/static/media/logo-javascript.36ec95aa.svg",
     "static/media/network.e29bfa5c.png": "/Portfolio/static/media/network.e29bfa5c.png",
     "static/media/phone-call-svgrepo-com.f1c08a4b.svg": "/Portfolio/static/media/phone-call-svgrepo-com.f1c08a4b.svg",
+    "static/media/photo.e57e7972.jpeg": "/Portfolio/static/media/photo.e57e7972.jpeg",
     "static/media/photo_about_me.e4cd3b2f.jpeg": "/Portfolio/static/media/photo_about_me.e4cd3b2f.jpeg",
     "static/media/postman.1c9c7c46.svg": "/Portfolio/static/media/postman.1c9c7c46.svg",
     "static/media/react-2.6fd2ff17.svg": "/Portfolio/static/media/react-2.6fd2ff17.svg",
@@ -40,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.6e8c2334.js",
     "static/js/2.8f8abb78.chunk.js",
-    "static/css/main.f1ad336f.chunk.css",
-    "static/js/main.6f1b18aa.chunk.js"
+    "static/css/main.1ce98ece.chunk.css",
+    "static/js/main.fde4aac2.chunk.js"
   ]
 }
