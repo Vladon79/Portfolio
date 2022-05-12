@@ -29,6 +29,7 @@ const Main = () => {
                 <Fade bottom>
                     <h3>Welcome There!</h3>
                     <h1>I'm Klopot Vlad</h1>
+                    <h3>Belarus, Brest</h3>
                     <ReactTypingEffect text={["I'm front-end developer"]}/>
                     <div className={style.divContainerForBlock}>
                         {logo.map(l => <div key={l.rerender} to={l.rerender} className={style.containerForBlock}>
