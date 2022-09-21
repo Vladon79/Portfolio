@@ -23,10 +23,7 @@ const AboutMe = () => {
                         </div>
 
                         <div className={style.info}>
-                            <p> I'm frontend developer with experience in creating SPA with React/Redux/ TypeScript in
-                                team. Now I improve my skills in this direction and expanding them with new
-                                technologies. And also I have interest to learn React Native. My free time is dedicated
-                                to solving katas on Codewars and boosting my English. Open to your suggestion.</p>
+                            <p> I'm front end developer with experience in creating SPA with React/Redux/TypeScript in team. I have experience with Node.js, and AWS services, SSК on Next.JS + Typescript. I'm also a little familiar with React-Native/Expo. I am self-learner, I was getting necessary information and learned it, so I am open to learning new advance technologies and growing.</p>
                         </div>
 
                     </div>

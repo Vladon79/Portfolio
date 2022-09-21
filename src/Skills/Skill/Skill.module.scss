@@ -15,6 +15,9 @@
   margin-block: 5px;
   padding: 20px 20px;
 
+  &:hover{
+    filter: brightness(95%)
+  }
 
   .icon {
     width: 80px;

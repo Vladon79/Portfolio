@@ -54,12 +54,17 @@
         }
 
         p {
-          @include text(16px, 400, $titleColor, 24px);
+          @include text($textFontFamily, $titleColor, 16px, 400);
         }
 
       }
 
 
+    }
+    .sendMessageSpan{
+      height: 0;
+      position: relative;
+      @include text($textFontFamily, $primaryColor, 20px, 800);
     }
 
 
@@ -87,12 +92,13 @@
         text-indent: 20px;
         background-color: transparent;
         border: 1px solid #ddd;
-        border-radius: 0px;
+        border-radius: 8px;
         box-shadow: none;
         margin-bottom: 30px;
         font-weight: 300;
         //@include text($textFontFamily, $textColor2, 16px, 500);
       }
+
 
       .textarea {
         resize: none;
@@ -107,11 +113,24 @@
         text-indent: 20px;
         background-color: transparent;
         border: 1px solid #ddd;
-        border-radius: 0px;
+        border-radius: 8px;
         box-shadow: none;
         margin-bottom: 30px;
         font-weight: 300;
       }
+
+      .errorInput{
+        border: 1px solid red;
+      }
+      .errorSpan{
+        width: 98%;
+        color: red;
+        position: relative;
+        top:-28px;
+        text-align: left;
+        height: 0;
+      }
+
 
     }
   }
